@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="<%=request.getContextPath()%>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/css/flexslider.css" rel="stylesheet" >
+    <link href="<%=request.getContextPath()%>/css/styles.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/css/queries.css" rel="stylesheet">
+    <link href="<%=request.getContextPath()%>/css/animate.css" rel="stylesheet">
+		<title>Welcome - Roxdesigns</title>
+		
+	</head>
+	<body id="top">
+	<section class="intro text-center section-padding" id="intro">
+            <div class="container">
+             <div class="row">
+               <div class="col-md-6 col-md-offset-3 text-center">
+		<div>
+			<h1>Welcome to RoxDesigns</h1>
+			<h2>Create wireframes using Cacoo API</h2>
+			<div>
+				<a class="learn-more-btn" href="<%=request.getContextPath()%>/cacoo/">Launch Cacoo API</a>
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</section>
+	</body>
+</html>
